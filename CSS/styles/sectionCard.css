@@ -1,0 +1,15 @@
+.container__card{
+    width: 1150px;
+    display: flex;
+    text-align: center;
+}
+
+.card{
+    border: none;
+}
+
+.card-link{
+    text-decoration: none;
+    color: black;
+
+}

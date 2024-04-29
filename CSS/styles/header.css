@@ -1,0 +1,21 @@
+
+.container__cabecario{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.container__nav{
+    display: flex;
+    gap: 2.5rem;
+}
+
+.botao__nav{
+    text-decoration: none;
+    color: black;
+}
+
+.botao__nav:hover{
+    border-bottom: 1px solid;
+}
