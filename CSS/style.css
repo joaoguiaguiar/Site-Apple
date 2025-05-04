@@ -12,3 +12,32 @@ body{
     height: 100vh;
     font-family: "Roboto", sans-serif;
 }
+
+/* Responsividade com media query */
+@media (max-width: 768px) {
+    .container__nav {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card {
+      width: 100% !important;
+    }
+  
+    .container__card {
+      grid-template-columns: 1fr;
+    }
+  
+    .carousel {
+      width: 100% !important;
+    }
+  
+    .footer-wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .titulo {
+      font-size: 1.4rem;
+    }
+  }

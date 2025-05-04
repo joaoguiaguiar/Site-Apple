@@ -19,3 +19,21 @@
 strong{
     color: #7c8694;
 }
+
+@media (max-width: 768px) {
+    .section__1 {
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+
+    .lista__section1 {
+        gap: 2rem;
+      }
+      .titulo {
+        font-size: 2rem;
+      }
+  }
+  
