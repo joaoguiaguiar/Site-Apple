@@ -10,5 +10,4 @@ Tecnologias Utilizadas
 
 Link do Projeto:
 
-https://apple-hub.vercel.app/
- (Site não Responsivo)
+https://site-teste-apple.vercel.app/
