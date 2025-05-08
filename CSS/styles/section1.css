@@ -1,4 +1,4 @@
-.section__1{
+.section__1 {
     padding: 5rem;
     display: flex;
     justify-content: space-between;
@@ -6,34 +6,40 @@
 
 
 
-.lista__section1{
+.lista__section1 {
     display: flex;
     flex-direction: column;
     gap: 3rem;
 }
 
-.titulo{
+.titulo {
     font-size: 3rem;
 }
 
-strong{
+strong {
     color: #7c8694;
 }
 
+
 @media (max-width: 768px) {
     .section__1 {
-      flex-direction: column;
-      align-items: center;
-      padding: 2rem 1rem;
-      text-align: center;
+        flex-direction: column;
+        padding: 5rem;
+        align-items: center;
+        text-align: center;
     }
 
+    .titulo {
+        font-size: 1.8rem;
+        margin-bottom: 1.5rem;
+    }
 
     .lista__section1 {
-        gap: 2rem;
-      }
-      .titulo {
-        font-size: 2rem;
-      }
-  }
-  
+        gap: 1.5rem;
+        width: 100%;
+    }
+
+    .lista__section1 li {
+        margin-bottom: 1rem;
+    }
+}

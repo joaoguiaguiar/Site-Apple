@@ -1,41 +1,40 @@
-
-.container__cabecario{
+.container__cabecario {
     padding: 1rem;
     display: flex;
-    justify-content: space-around;
-
-}
-
-.container__nav{
-    display: flex;
-    gap: 2.5rem;
-}
-
-.botao__nav{
-    text-decoration: none;
-    color: black;
-}
-
-.botao__nav:hover{
-    border-bottom: 1px solid;
-}
-
-
-@media (max-width: 768px) {
-    .container__cabecario {
-      flex-direction: column;
-      align-items: center;
-      gap: 1rem;
-    }
-
-    .container__nav {
-        flex-direction: column;
-        align-items: center;
-        gap: 1rem;
-    }
-
-    .botao__nav {
-        font-size: 1rem;
-      }
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
   }
   
+  .container__nav {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  @media (max-width: 768px) {
+    .container__cabecario {
+      padding: 0.5rem;
+      position: relative;
+    }
+    
+    .container__nav {
+      display: none; /* Esconde por padrão no mobile */
+      width: 100%;
+      flex-direction: column;
+      gap: 0.5rem;
+      padding: 0.5rem 0;
+    }
+    
+    /* Menu hamburguer para mobile */
+    .menu-toggle {
+      display: block;
+      cursor: pointer;
+      padding: 0.5rem;
+    }
+    
+    .nav-active {
+      display: flex;
+    }
+  }

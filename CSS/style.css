@@ -6,14 +6,16 @@
     padding: 0;
     margin: 0;
 }
-
+:root {
+  --padding-mobile: 1rem;
+  --padding-desktop: 5rem;
+}
 body{
     box-sizing: border-box;
     height: 100vh;
     font-family: "Roboto", sans-serif;
 }
 
-/* Responsividade com media query */
 @media (max-width: 768px) {
     .container__nav {
       flex-direction: column;
