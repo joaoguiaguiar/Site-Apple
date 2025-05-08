@@ -10,4 +10,4 @@ Tecnologias Utilizadas
 
 Link do Projeto:
 
-https://site-teste-apple.vercel.app/
+https://site-apple--delta.vercel.app/
